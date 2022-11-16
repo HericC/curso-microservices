@@ -15,4 +15,12 @@ public class ExceptionGlobalHandler {
     details.setMessage(validationException.getMessage());
     return new ResponseEntity<>(details, HttpStatus.BAD_REQUEST);
   }
+
+  @ExceptionHandler(AuthenticationException.class)
+  public ResponseEntity<?> handlerAuthenticationException(AuthenticationException authenticationException) {
+    var details =  new ExceptionDetail();
+    details.setStatus(HttpStatus.UNAUTHORIZED.value());
+    details.setMessage(authenticationException.getMessage());
+    return new ResponseEntity<>(details, HttpStatus.UNAUTHORIZED);
+  }
 }
