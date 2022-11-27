@@ -1,9 +1,9 @@
-package br.com.cursomicroservices.productapi.modules.category.controller;
+package br.com.cursomicroservices.productapi.modules.category.controllers;
 
-import br.com.cursomicroservices.productapi.config.exception.SuccessResponse;
-import br.com.cursomicroservices.productapi.modules.category.dto.CategoryRequest;
-import br.com.cursomicroservices.productapi.modules.category.dto.CategoryResponse;
-import br.com.cursomicroservices.productapi.modules.category.service.CategoryService;
+import br.com.cursomicroservices.productapi.config.exceptions.SuccessResponse;
+import br.com.cursomicroservices.productapi.modules.category.interfaces.CategoryRequest;
+import br.com.cursomicroservices.productapi.modules.category.interfaces.CategoryResponse;
+import br.com.cursomicroservices.productapi.modules.category.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

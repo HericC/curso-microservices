@@ -1,6 +1,6 @@
 package br.com.cursomicroservices.productapi.modules.category.interfaces;
 
-import br.com.cursomicroservices.productapi.modules.category.model.Category;
+import br.com.cursomicroservices.productapi.modules.category.models.Category;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 

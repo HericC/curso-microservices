@@ -1,4 +1,4 @@
-package br.com.cursomicroservices.config.exceptions;
+package br.com.cursomicroservices.productapi.config.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

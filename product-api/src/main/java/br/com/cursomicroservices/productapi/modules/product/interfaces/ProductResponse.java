@@ -1,8 +1,8 @@
 package br.com.cursomicroservices.productapi.modules.product.interfaces;
 
-import br.com.cursomicroservices.productapi.modules.category.dto.CategoryResponse;
-import br.com.cursomicroservices.productapi.modules.product.model.Product;
-import br.com.cursomicroservices.productapi.modules.supplier.dto.SupplierResponse;
+import br.com.cursomicroservices.productapi.modules.category.interfaces.CategoryResponse;
+import br.com.cursomicroservices.productapi.modules.product.models.Product;
+import br.com.cursomicroservices.productapi.modules.supplier.interfaces.SupplierResponse;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

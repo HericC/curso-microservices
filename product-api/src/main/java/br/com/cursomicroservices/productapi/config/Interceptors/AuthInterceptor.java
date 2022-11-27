@@ -1,7 +1,7 @@
-package br.com.cursomicroservices.config.interceptors;
+package br.com.cursomicroservices.productapi.config.interceptors;
 
-import br.com.cursomicroservices.productapi.config.exception.ValidationException;
-import br.com.cursomicroservices.productapi.modules.jwt.service.JwtService;
+import br.com.cursomicroservices.productapi.config.exceptions.ValidationException;
+import br.com.cursomicroservices.productapi.modules.jwt.services.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.servlet.HandlerInterceptor;

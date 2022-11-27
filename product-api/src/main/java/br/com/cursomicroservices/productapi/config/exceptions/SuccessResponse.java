@@ -1,4 +1,4 @@
-package br.com.cursomicroservices.productapi.config.exception;
+package br.com.cursomicroservices.productapi.config.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

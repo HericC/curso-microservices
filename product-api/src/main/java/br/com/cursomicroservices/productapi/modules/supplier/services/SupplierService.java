@@ -1,12 +1,12 @@
 package br.com.cursomicroservices.productapi.modules.supplier.services;
 
-import br.com.cursomicroservices.productapi.config.exception.SuccessResponse;
-import br.com.cursomicroservices.productapi.config.exception.ValidationException;
-import br.com.cursomicroservices.productapi.modules.product.service.ProductService;
-import br.com.cursomicroservices.productapi.modules.supplier.dto.SupplierRequest;
-import br.com.cursomicroservices.productapi.modules.supplier.dto.SupplierResponse;
-import br.com.cursomicroservices.productapi.modules.supplier.model.Supplier;
-import br.com.cursomicroservices.productapi.modules.supplier.repository.SupplierRepository;
+import br.com.cursomicroservices.productapi.config.exceptions.SuccessResponse;
+import br.com.cursomicroservices.productapi.config.exceptions.ValidationException;
+import br.com.cursomicroservices.productapi.modules.product.services.ProductService;
+import br.com.cursomicroservices.productapi.modules.supplier.interfaces.SupplierRequest;
+import br.com.cursomicroservices.productapi.modules.supplier.interfaces.SupplierResponse;
+import br.com.cursomicroservices.productapi.modules.supplier.models.Supplier;
+import br.com.cursomicroservices.productapi.modules.supplier.repositories.SupplierRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

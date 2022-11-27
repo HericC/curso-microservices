@@ -1,6 +1,6 @@
 package br.com.cursomicroservices.productapi.modules.supplier.interfaces;
 
-import br.com.cursomicroservices.productapi.modules.supplier.model.Supplier;
+import br.com.cursomicroservices.productapi.modules.supplier.models.Supplier;
 import lombok.Data;
 import org.springframework.beans.BeanUtils;
 

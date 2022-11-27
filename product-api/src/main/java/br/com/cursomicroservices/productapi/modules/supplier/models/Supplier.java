@@ -1,8 +1,8 @@
 package br.com.cursomicroservices.productapi.modules.supplier.models;
 
-import br.com.cursomicroservices.productapi.modules.category.dto.CategoryRequest;
-import br.com.cursomicroservices.productapi.modules.category.model.Category;
-import br.com.cursomicroservices.productapi.modules.supplier.dto.SupplierRequest;
+import br.com.cursomicroservices.productapi.modules.category.interfaces.CategoryRequest;
+import br.com.cursomicroservices.productapi.modules.category.models.Category;
+import br.com.cursomicroservices.productapi.modules.supplier.interfaces.SupplierRequest;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

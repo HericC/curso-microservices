@@ -1,17 +1,17 @@
 package br.com.cursomicroservices.productapi.modules.product.services;
 
-import br.com.cursomicroservices.productapi.config.exception.SuccessResponse;
-import br.com.cursomicroservices.productapi.config.exception.ValidationException;
-import br.com.cursomicroservices.productapi.modules.category.service.CategoryService;
-import br.com.cursomicroservices.productapi.modules.product.dto.*;
-import br.com.cursomicroservices.productapi.modules.product.model.Product;
-import br.com.cursomicroservices.productapi.modules.product.repository.ProductRepository;
+import br.com.cursomicroservices.productapi.config.exceptions.SuccessResponse;
+import br.com.cursomicroservices.productapi.config.exceptions.ValidationException;
+import br.com.cursomicroservices.productapi.modules.category.services.CategoryService;
+import br.com.cursomicroservices.productapi.modules.product.interfaces.*;
+import br.com.cursomicroservices.productapi.modules.product.models.Product;
+import br.com.cursomicroservices.productapi.modules.product.repositories.ProductRepository;
 import br.com.cursomicroservices.productapi.modules.sales.client.SalesClient;
-import br.com.cursomicroservices.productapi.modules.sales.dto.SalesConfirmationDTO;
-import br.com.cursomicroservices.productapi.modules.sales.dto.SalesProductResponse;
+import br.com.cursomicroservices.productapi.modules.sales.interfaces.SalesConfirmationDTO;
+import br.com.cursomicroservices.productapi.modules.sales.interfaces.SalesProductResponse;
 import br.com.cursomicroservices.productapi.modules.sales.enums.SalesStatus;
 import br.com.cursomicroservices.productapi.modules.sales.rabbitmq.SalesConfirmationSender;
-import br.com.cursomicroservices.productapi.modules.supplier.service.SupplierService;
+import br.com.cursomicroservices.productapi.modules.supplier.services.SupplierService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

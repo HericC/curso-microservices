@@ -1,9 +1,9 @@
 package br.com.cursomicroservices.productapi.modules.supplier.controllers;
 
-import br.com.cursomicroservices.productapi.config.exception.SuccessResponse;
-import br.com.cursomicroservices.productapi.modules.supplier.dto.SupplierRequest;
-import br.com.cursomicroservices.productapi.modules.supplier.dto.SupplierResponse;
-import br.com.cursomicroservices.productapi.modules.supplier.service.SupplierService;
+import br.com.cursomicroservices.productapi.config.exceptions.SuccessResponse;
+import br.com.cursomicroservices.productapi.modules.supplier.interfaces.SupplierRequest;
+import br.com.cursomicroservices.productapi.modules.supplier.interfaces.SupplierResponse;
+import br.com.cursomicroservices.productapi.modules.supplier.services.SupplierService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
 package br.com.cursomicroservices.productapi.modules.product.repositories;
 
-import br.com.cursomicroservices.productapi.modules.product.model.Product;
+import br.com.cursomicroservices.productapi.modules.product.models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

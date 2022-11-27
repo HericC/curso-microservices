@@ -1,8 +1,8 @@
-package br.com.cursomicroservices.productapi.modules.product.controller;
+package br.com.cursomicroservices.productapi.modules.product.controllers;
 
-import br.com.cursomicroservices.productapi.config.exception.SuccessResponse;
-import br.com.cursomicroservices.productapi.modules.product.dto.*;
-import br.com.cursomicroservices.productapi.modules.product.service.ProductService;
+import br.com.cursomicroservices.productapi.config.exceptions.SuccessResponse;
+import br.com.cursomicroservices.productapi.modules.product.interfaces.*;
+import br.com.cursomicroservices.productapi.modules.product.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

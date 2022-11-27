@@ -1,7 +1,7 @@
 package br.com.cursomicroservices.productapi.modules.jwt.services;
 
-import br.com.cursomicroservices.productapi.config.exception.AuthenticationException;
-import br.com.cursomicroservices.productapi.modules.jwt.dto.JwtResponse;
+import br.com.cursomicroservices.productapi.config.exceptions.AuthenticationException;
+import br.com.cursomicroservices.productapi.modules.jwt.interfaces.JwtResponse;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
