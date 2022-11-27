@@ -54,4 +54,14 @@ public interface ProductController  {
   public SuccessResponse delete(@PathVariable Integer id) {
     return productService.delete(id);
   }
+
+  @PostMapping("check-stock")
+  public SuccessResponse checkProductsStock(@RequestBody ProductCheckStockRequest request) {
+    return productService.checkProductsStock(request);
+  }
+
+  @GetMapping("{id}/sales")
+  public ProductSalesResponse findProductSales(@PathVariable Integer id) {
+    return productService.findProductSales(id);
+  }
 }
